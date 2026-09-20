@@ -1,0 +1,6 @@
+{
+  "versionCode": 7,
+  "versionName": "3.4.0",
+  "apkUrl": "https://github.com/dsawq-wqs/selfplayer-release/releases/download/v3.4.0/selfplayer_v3.4.0.apk",
+  "notes": "新增 App 内检查更新：启动静默检查、下载进度、一键安装"
+}
