@@ -1,6 +1,6 @@
 {
-  "versionCode": 7,
-  "versionName": "3.4.0",
-  "apkUrl": "https://github.com/dsawq-wqs/selfplayer-release/releases/download/v3.4.0/selfplayer_v3.4.0.apk",
-  "notes": "新增 App 内检查更新：启动静默检查、下载进度、一键安装"
+  "versionCode": 8,
+  "versionName": "3.5.0",
+  "apkUrl": "https://github.com/dsawq-wqs/selfplayer-release/releases/download/v3.5.0/selfplayer_v3.5.0.apk",
+  "notes": "1) 设置菜单移到顶栏最左侧，不再被挤出屏幕；2) 新增「关于」页，可查看当前版本号；3) 备用更新地址(jsDelivr 镜像)默认启用，主地址连不上自动切换"
 }
