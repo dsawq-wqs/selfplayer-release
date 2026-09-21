@@ -1,10 +1,10 @@
 {
-  "versionCode": 24,
-  "versionName": "1.23",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.23/privatevideo_v1.23.apk",
+  "versionCode": 25,
+  "versionName": "1.24",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.23/privatevideo_v1.23.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.23/privatevideo_v1.23.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk"
   ],
-  "notes": "下载地址改为「主地址+备用地址」自动降级：某个地址不通会自己换下一个，国内网络下不再卡死；主地址改用国内可达的加速镜像"
+  "notes": "上传提速：HTTP 接收缓冲从 512 字节提到 64KB，大文件传输的系统调用从约 670 万次降到约 5 万次"
 }
