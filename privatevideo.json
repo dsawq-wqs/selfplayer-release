@@ -1,10 +1,10 @@
 {
-  "versionCode": 25,
-  "versionName": "1.24",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk",
+  "versionCode": 26,
+  "versionName": "1.25",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.24/privatevideo_v1.24.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk"
   ],
-  "notes": "上传提速：HTTP 接收缓冲从 512 字节提到 64KB，大文件传输的系统调用从约 670 万次降到约 5 万次"
+  "notes": "修复上传：①拖拽上传失败（优先用 dt.files 取文件、过滤 0 字节空壳）；②大文件(>2GB)上传失败（改用 raw body 直接流式落盘，绕过 NanoHTTPD 的 MappedByteBuffer 2GB 上限）"
 }
