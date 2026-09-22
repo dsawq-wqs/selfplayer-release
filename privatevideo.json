@@ -1,10 +1,10 @@
 {
-  "versionCode": 26,
-  "versionName": "1.25",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk",
+  "versionCode": 27,
+  "versionName": "1.26",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.25/privatevideo_v1.25.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk"
   ],
-  "notes": "修复上传：①拖拽上传失败（优先用 dt.files 取文件、过滤 0 字节空壳）；②大文件(>2GB)上传失败（改用 raw body 直接流式落盘，绕过 NanoHTTPD 的 MappedByteBuffer 2GB 上限）"
+  "notes": "修复大文件（3GB/5GB）上传失败：改用分片上传（每片16MB），绕开浏览器对超大请求体改用 chunked 编码导致服务端收不到 Content-Length 而被秒拒的问题；失败时直接显示真实原因（空间不足/连接中断到百分之几）；新增存储空间预检查"
 }
