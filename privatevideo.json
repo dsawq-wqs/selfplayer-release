@@ -1,10 +1,10 @@
 {
-  "versionCode": 27,
-  "versionName": "1.26",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk",
+  "versionCode": 28,
+  "versionName": "1.27",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.26/privatevideo_v1.26.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk"
   ],
-  "notes": "修复大文件（3GB/5GB）上传失败：改用分片上传（每片16MB），绕开浏览器对超大请求体改用 chunked 编码导致服务端收不到 Content-Length 而被秒拒的问题；失败时直接显示真实原因（空间不足/连接中断到百分之几）；新增存储空间预检查"
+  "notes": "上传前先检查同名同大小：手机里已有就提示「视频已存在，跳过」，不再白传；打开 App 时文件夹默认折叠；播放中返回桌面/切后台立即暂停播放"
 }
