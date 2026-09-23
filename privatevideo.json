@@ -1,10 +1,10 @@
 {
-  "versionCode": 33,
-  "versionName": "1.32",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk",
+  "versionCode": 34,
+  "versionName": "1.33",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk"
   ],
-  "notes": "v1.32：播放页控制条按钮位置可在设置里选左对齐/居中/右对齐（横竖屏同时生效）；修复上一版自定义矢量图标不显示的问題，改回官方 Material 图标（上一个/快退/快进/下一个）。"
+  "notes": "v1.33：文件夹内的视频按名称排序（自然序：ep2 排在 ep10 前面），按用户重命名后的显示名称排序。"
 }
