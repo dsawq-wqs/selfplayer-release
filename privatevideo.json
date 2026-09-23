@@ -1,10 +1,10 @@
 {
-  "versionCode": 31,
-  "versionName": "1.30",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.30/privatevideo_v1.30.apk",
+  "versionCode": 33,
+  "versionName": "1.32",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.30/privatevideo_v1.30.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.30/privatevideo_v1.30.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.32/privatevideo_v1.32.apk"
   ],
-  "notes": "播放页控制条改为纯图标按钮（按你选的样式 C）：⏮ 上一个 · ⏪ 快退15秒 · ▶/⏸ 播放暂停 · ⏩ 快进15秒 · ⏭ 下一个，单行居中、图标比文字窄很多，竖屏也不会占满底部；图标全部矢量自绘（双三角表示快退/快进，不再有 < > 歧义；⏮/⏭ 表示上下集），不引入第三方图标库；到边界时上下集按钮自动置灰；切集自动保存进度。"
+  "notes": "v1.32：播放页控制条按钮位置可在设置里选左对齐/居中/右对齐（横竖屏同时生效）；修复上一版自定义矢量图标不显示的问題，改回官方 Material 图标（上一个/快退/快进/下一个）。"
 }
