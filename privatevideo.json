@@ -1,10 +1,10 @@
 {
-  "versionCode": 29,
-  "versionName": "1.28",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk",
+  "versionCode": 30,
+  "versionName": "1.29",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.29/privatevideo_v1.29.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.29/privatevideo_v1.29.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.29/privatevideo_v1.29.apk"
   ],
-  "notes": "锁屏体验优化：指纹解锁弹窗不再显示系统「使用密码/PIN」入口，仅保留指纹；已通过指纹或访问密码进入应用后，设置菜单新增「设置访问密码」，可随时重设 4~8 位访问密码（即使忘记原密码，也能借指纹进入后重新设置）。"
+  "notes": "播放体验优化：① 快进/快退改为纯文字「−15s / +15s」，去除像 < > 的箭头观感；② 新增「上一个/下一个」按钮（快退左边=上一个、快进右边=下一个，同文件夹内按文件名自然序切换，到边界自动置灰，切集自动保存进度）；③ 列表页「已看进度」提示醒目化：由小蓝字改为淡蓝底药丸 + 加粗大字 + 已看时长与百分比（如「已看 12:30 · 28%」）。"
 }
