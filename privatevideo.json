@@ -1,10 +1,10 @@
 {
-  "versionCode": 28,
-  "versionName": "1.27",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk",
+  "versionCode": 29,
+  "versionName": "1.28",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.27/privatevideo_v1.27.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.28/privatevideo_v1.28.apk"
   ],
-  "notes": "上传前先检查同名同大小：手机里已有就提示「视频已存在，跳过」，不再白传；打开 App 时文件夹默认折叠；播放中返回桌面/切后台立即暂停播放"
+  "notes": "锁屏体验优化：指纹解锁弹窗不再显示系统「使用密码/PIN」入口，仅保留指纹；已通过指纹或访问密码进入应用后，设置菜单新增「设置访问密码」，可随时重设 4~8 位访问密码（即使忘记原密码，也能借指纹进入后重新设置）。"
 }
