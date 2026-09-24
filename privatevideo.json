@@ -1,10 +1,10 @@
 {
-  "versionCode": 34,
-  "versionName": "1.33",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk",
+  "versionCode": 35,
+  "versionName": "1.34",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.33/privatevideo_v1.33.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk"
   ],
-  "notes": "v1.33：文件夹内的视频按名称排序（自然序：ep2 排在 ep10 前面），按用户重命名后的显示名称排序。"
+  "notes": "v1.34：修复锁屏漏洞——退到后台/回主页再回来现在必须重新指纹或访问密码验证（原来 60 秒内回来不上锁）；息屏同样立即上锁。"
 }
