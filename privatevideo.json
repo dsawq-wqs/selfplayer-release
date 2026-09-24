@@ -1,10 +1,10 @@
 {
-  "versionCode": 36,
-  "versionName": "1.35",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk",
+  "versionCode": 37,
+  "versionName": "1.36",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk"
   ],
-  "notes": "v1.35：修复播放中跳到其它视频的严重 bug——切换/重开视频时旧视频的数据库观察器没被取消，进度回写会把画面拉回之前看过的视频（上/下一个都可能跳）；现在切集即取消旧观察器，且只播放当前选中的视频。"
+  "notes": "v1.36：性能优化，修复播放页返回列表卡顿——文件夹内视频排序不再每次比较都新建正则（改为预计算排序键，分词次数从 N·logN 降到 N，比较时零分配）；分组排序移出 Room 事务线程并去重，避免每次进度回写都让整个列表重组；列表页去掉每次重组重建整个 id 列表的开销。视频越多效果越明显。"
 }
