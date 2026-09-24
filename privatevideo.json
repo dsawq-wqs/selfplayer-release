@@ -1,10 +1,10 @@
 {
-  "versionCode": 35,
-  "versionName": "1.34",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk",
+  "versionCode": 36,
+  "versionName": "1.35",
+  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.34/privatevideo_v1.34.apk"
+    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk",
+    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.35/privatevideo_v1.35.apk"
   ],
-  "notes": "v1.34：修复锁屏漏洞——退到后台/回主页再回来现在必须重新指纹或访问密码验证（原来 60 秒内回来不上锁）；息屏同样立即上锁。"
+  "notes": "v1.35：修复播放中跳到其它视频的严重 bug——切换/重开视频时旧视频的数据库观察器没被取消，进度回写会把画面拉回之前看过的视频（上/下一个都可能跳）；现在切集即取消旧观察器，且只播放当前选中的视频。"
 }
