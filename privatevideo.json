@@ -1,10 +1,10 @@
 {
   "versionCode": 37,
   "versionName": "1.36",
-  "apkUrl": "https://gh-proxy.com/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.36.apk",
   "apkUrlBackups": [
-    "https://ghproxy.net/https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk",
-    "https://github.com/dsawq-wqs/selfplayer-release/releases/download/video-v1.36/privatevideo_v1.36.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.36.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.36.apk"
   ],
-  "notes": "v1.36：性能优化，修复播放页返回列表卡顿——文件夹内视频排序不再每次比较都新建正则（改为预计算排序键，分词次数从 N·logN 降到 N，比较时零分配）；分组排序移出 Room 事务线程并去重，避免每次进度回写都让整个列表重组；列表页去掉每次重组重建整个 id 列表的开销。视频越多效果越明显。"
+  "notes": "v1.36：性能优化，修复播放页返回列表卡顿——视频排序改为预计算排序键（不再每次比较都新建正则），分组排序移出 Room 事务线程并去重；列表页去掉每次重组重建 id 列表的开销。视频越多效果越明显。"
 }
