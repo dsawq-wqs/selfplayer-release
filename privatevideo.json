@@ -6,5 +6,5 @@
     "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.37.apk",
     "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.37.apk"
   ],
-  "notes": ""
+  "notes": "v1.37：列表页顶部新增剩余空间显示（剩余 / 总容量 + 占用进度条，删除后立刻重算）；新增可在设置里开关的滑动删除——按设定方向拖动视频条目，删除按钮从对应那一侧滑出，点一下原地变成「确认删除 / 取消」，不用再把手伸到屏幕底部；确认删除固定在最外侧、取消贴着条目，左右两版互为镜像。原有删除入口（右侧图标、长按多选、更多菜单）全部保留。"
 }
