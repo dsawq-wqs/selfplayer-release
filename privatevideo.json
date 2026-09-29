@@ -1,10 +1,10 @@
 {
-  "versionCode": 39,
-  "versionName": "1.38",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.38.apk",
+  "versionCode": 40,
+  "versionName": "1.39",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.39.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.38.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.38.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.39.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.39.apk"
   ],
-  "notes": "1.38 更新：① 播放页左下角新增删除按钮（控制条上方，横竖屏可用），设置里可开关防误删，删除需二次确认、确认后自动播下一个；② 列表退回经典样式：去掉滑动删除与右侧删除图标，删除入口保留⋯菜单和长按多选；③ 修复重试上传成功后 App 仍显示失败条目和失败计数的问题，新增重试成功计数；④ 保留列表顶部剩余空间显示。"
+  "notes": "1.39 更新：修正播放页删除开关语义——开关现在是「删除时不再弹确认」：关闭（默认）时播放页点删除先弹「删除该视频？」确认框，确认后才删；打开后点删除直接删除并自动播下一个。删除按钮本身常驻显示，不再受开关控制。"
 }
