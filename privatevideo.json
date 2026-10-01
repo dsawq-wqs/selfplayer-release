@@ -1,10 +1,10 @@
 {
-  "versionCode": 40,
-  "versionName": "1.39",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.39.apk",
+  "versionCode": 41,
+  "versionName": "1.40",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.40.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.39.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.39.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.40.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.40.apk"
   ],
-  "notes": "1.39 更新：修正播放页删除开关语义——开关现在是「删除时不再弹确认」：关闭（默认）时播放页点删除先弹「删除该视频？」确认框，确认后才删；打开后点删除直接删除并自动播下一个。删除按钮本身常驻显示，不再受开关控制。"
+  "notes": "1.40 更新：① 修复播放页直接删除点了没反应的问题（开启不弹确认后，删除会立即生效并自动播下一个，最后一个则返回列表）；② 已看完的视频显示「已看完」标签，看了一部分的照旧显示「已看 时长 · 百分比」，两者在同一位置按状态切换。"
 }
