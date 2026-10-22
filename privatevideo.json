@@ -1,10 +1,10 @@
 {
-  "versionCode": 41,
-  "versionName": "1.40",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.40.apk",
+  "versionCode": 42,
+  "versionName": "1.41",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.41.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.40.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.40.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.41.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.41.apk"
   ],
-  "notes": "1.40 更新：① 修复播放页直接删除点了没反应的问题（开启不弹确认后，删除会立即生效并自动播下一个，最后一个则返回列表）；② 已看完的视频显示「已看完」标签，看了一部分的照旧显示「已看 时长 · 百分比」，两者在同一位置按状态切换。"
+  "notes": "1.41 更新：新增各文件夹专属上传地址——App 传输界面会列出每个文件夹的专属网址（一键复制），电脑浏览器开多个标签页分别打开，即可同时上传不同文件到不同文件夹；专属页面会锁定目标文件夹并显示徽标防止传错。不带参数的原地址用法不变，照常下拉选文件夹或手动输入。"
 }
