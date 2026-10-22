@@ -1,10 +1,10 @@
 {
-  "versionCode": 43,
-  "versionName": "1.42",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.42.apk",
+  "versionCode": 44,
+  "versionName": "1.43",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.43.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.42.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.42.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.43.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.43.apk"
   ],
-  "notes": "1.42 更新：网页上传支持拖入整个文件夹——自动递归收集里面的视频和字幕（自动跳过隐藏文件、Thumbs.db 等垃圾文件），并新增「选择文件夹」按钮；选择或拖入单个文件夹时，「上传到」会自动替换成该文件夹的名字，无需手动改。"
+  "notes": "移除各文件夹专属上传地址，恢复纯主地址+二维码；保留拖文件夹上传与选择文件夹自动替换目标"
 }
