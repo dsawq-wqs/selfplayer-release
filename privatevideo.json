@@ -1,10 +1,10 @@
 {
-  "versionCode": 42,
-  "versionName": "1.41",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.41.apk",
+  "versionCode": 43,
+  "versionName": "1.42",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.42.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.41.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.41.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.42.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.42.apk"
   ],
-  "notes": "1.41 更新：新增各文件夹专属上传地址——App 传输界面会列出每个文件夹的专属网址（一键复制），电脑浏览器开多个标签页分别打开，即可同时上传不同文件到不同文件夹；专属页面会锁定目标文件夹并显示徽标防止传错。不带参数的原地址用法不变，照常下拉选文件夹或手动输入。"
+  "notes": "1.42 更新：网页上传支持拖入整个文件夹——自动递归收集里面的视频和字幕（自动跳过隐藏文件、Thumbs.db 等垃圾文件），并新增「选择文件夹」按钮；选择或拖入单个文件夹时，「上传到」会自动替换成该文件夹的名字，无需手动改。"
 }
