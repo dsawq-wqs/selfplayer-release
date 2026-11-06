@@ -1,10 +1,10 @@
 {
-  "versionCode": 44,
-  "versionName": "1.43",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.43.apk",
+  "versionCode": 45,
+  "versionName": "1.44",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.44.apk",
   "apkUrlBackups": [
-    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.43.apk",
-    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.43.apk"
+    "https://cdn.jsdelivr.net/gh/dsawq-wqs/selfplayer-release@main/privatevideo_v1.44.apk",
+    "https://raw.githubusercontent.com/dsawq-wqs/selfplayer-release/main/privatevideo_v1.44.apk"
   ],
-  "notes": "移除各文件夹专属上传地址，恢复纯主地址+二维码；保留拖文件夹上传与选择文件夹自动替换目标"
+  "notes": "修复播放页连续删除会删到别的文件：删除目标改为当前视频id并串行完成后再跳转，修正相邻视频计算竞态，新增防连点"
 }
